@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(252, 247, 243, 0.144);
+    
+}
+h1{
+    color: #e43804ad;
+    background-color: rgba(253, 114, 0, 0.158);
+    font-family:  'Roboto Mono',"monoespaçado";
+    text-decoration: underline;
+}
+
+h2{
+    color:#e438047a ;
+    font-family: 'Roboto Mono',"monoespaçado";
+    }
+h3{
+    color:#e438047a ;
+    font-family: 'Roboto Mono',"monoespaçado" ;
+}
+h4{
+    color:#a8290280 ;
+    font-family: 'Roboto Mono',"monoespaçado" ;
+}
+
+.centro{
+    text-align: center;
+    
+}
+.centralizar{
+    background-color: white;
+    border: 2px solid #e43804ad ;
+    width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+}
+a:hover{
+    background-color: white;
+}
+.menu{
+        padding-top:50px;
+        width: 50%;
+        margin-left: 500px;
+        text-align: right;
+        
+    }
+    .menu a{
+         color: #255C4F;
+         text-decoration: none;
+         font-weight: bold;
+         margin-right: 20px;
+}

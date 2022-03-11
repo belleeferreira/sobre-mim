@@ -1,0 +1,10 @@
+body{
+    margin: 0%;
+}
+#container{
+    width: 90vw;
+    height: 90vh;
+    background: url("lockekey.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}

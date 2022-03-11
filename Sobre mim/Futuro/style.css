@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height:100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 100%;
+    background: linear-gradient(242.02deg, #255C4F -1.86%, rgba(37, 92, 79, 0.42) 100%);
+
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 0 2%;
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+.logo{
+     width: 50px;
+     margin-left: 30px;
+
+}
+a:hover{
+    background-color: #124136;
+}
+.menu{
+    padding-top:50px;
+    width: 50%;
+    margin-left: 500px;
+    text-align: right;
+    
+}
+.menu a{
+     color: white;
+     text-decoration: none;
+     font-family: 'Roboto Mono', monospace;
+     margin-right: 20px;
+}
+
+section.sobre{
+    position: relative;
+    height: calc(100% -200px);
+}
+
+.texto-sobre-carta{
+    position: fixed;
+    bottom: 240px;
+    margin-top: 240px;
+    left: 140px;
+    margin-right: 540px;
+    font-family: 'Roboto', monospace;
+    color: white;
+    font-size: 26px;
+}
+
+.extras{
+    position: fixed;
+    bottom: -200px;
+    right: -200px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #124136;
+}
+
+.extras img{
+    margin: 248px 0;
+    position: initial;
+    bottom: 60px;
+    margin-top: 60px;
+    left: 60px;
+}
+
+.social-media{
+    position: fixed;
+    right: 5010px;
+    top: 1000px;
+    left: 52pc;
+}
+
+.social-media img{
+    display: block;
+    width: 40px;
+    margin: 10px 0;
+    
+}
